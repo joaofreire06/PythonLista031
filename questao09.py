@@ -8,6 +8,10 @@ import math
 
 num = input("Informe um numero :")
 
-resposta1 = num
-resposta2 = (num * 2)
-resposta3 = math.sqrt(num)
+num1 = num
+num2 = math.pow(num,2)
+num3 = math.sqrt(num)
+
+print("O número:",num)
+print("O quadrado dele é:", num2)
+print("Sua raiz quadrada é:", num3)
